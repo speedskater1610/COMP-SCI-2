@@ -79,5 +79,18 @@ public class RAND_oct13 {
         
         // [67]
         int num9 = (int) (Math.random() * 1) + 67;
+
+        // for diffrent range types here are the formulas
+        // [,]         inclusive of both min and max
+        int IncInc = (int) (Math.random() * (max - min + 1) + min);
+
+        // [,)         inclusive of min, exclusive of max
+        int IncEx  = (int) (Math.random() * (max - min) + min);
+
+        // (,]        exclusive of min and inclusive of max
+        int ExInc = (int) (Math.random() * (max - min)) + min + 1;
+
+        // (,)        excllusive of both of the max and min
+        int ExEx = (int)(Math.random() * (max - min - 1)) + (min + 1);
     }
 }
