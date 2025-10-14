@@ -1,0 +1,47 @@
+Java 02 -  Variables and Output - Practice Problems
+All problems in this set should be completed in your Lesson02 workspace..  Each problem should get its own class and must be named starting with a capital letter.  For example, we could name the second problem in level 1: L1P2.java.  It is important that the class name is exactly the same as the file name.
+
+Level 1
+Write a program that outputs your name. No variables needed.
+
+Write a program that displays your name, address and phone number on the monitor.  Each should be on its own line.  No variables needed.
+
+Write a program that uses arithmetic to find the average of the numbers 20, 17 and 14.  Remember the order of operations.  No variables needed.
+
+Write a program that creates a set of variables that store information about you:
+A string called lastName
+A char variable called firstInitial
+An int called age
+A double called gpa
+A boolean called isMale
+Output each of the variables. 
+
+Write a program that outputs the letter Z.  The Z should be made of * characters and should be about 10 rows high and 9 characters wide.  Each row of the letter should be its own line of output.  See the example at right.  No variables needed.
+
+It's hot out! Let's make a converter.  First, store a celsius temperature into a variable. Then, convert it to fahrenheit and output "NN°C is NN°F".  Next, store a fahrenheit temperature into a variable.  Finally, convert it to celsius and output "NN°F is NN°C."  
+
+Write a program that creates two values, a dividend and divisor (not = 0).  Create another variable called quotient that stores the value of dividend/divisor.  Finally, create a fourth variable called remainder that stores the value of dividend%divisor.  Output the quotient and remainder.
+
+Level 2
+Write a fortune teller program that gives you your ideal fortune.  Declare and initialize four variables: num=your desired number of children, job is your ideal career, spouse is your dream significant other and loc is where you would like to live.  Then, output a sentence that states “You will be a job in loc and married to spouse with num kids.”  Each variable name in the sentence should be replaced with the variable value on output.
+
+Write a program that displays the members of your family that live in your house.  Be sure to include any pets that you may have.  All output should be written in one output statement, but each family member should appear on their own line.
+
+Write a program that displays the product of 5 and 12.  Write a sentence that says  “the product of 5 and 12 is 60”, except the 60 should be displayed using the mathematical multiplication of 5 and 12.
+
+Write a program that creates and initializes three double variables and stores their average in a variable called avg.  Output the average.
+
+Write a program that outputs your first initial (similar to the Z problem from level 1).  This time, all of the output should be written in a single output statement.  No variables needed.
+
+Write a program that creates two values, a dividend and divisor (not = 0).  Create another variable called quotient that stores the value of dividend/divisor.  Finally, create a fourth variable called remainder that stores the value of dividend%divisor.  Output the quotient and remainder.
+
+
+Level 3
+Write a program that displays the difference of two numbers.  Write a sentence that says “the difference of num1 and num2 is difference.”  Except the values of num1, num2 and difference in the output should be replaced by variables that store values.
+
+Write a program to output the letters H, T and L as created by * characters.  Create four variables that store * patterns and use ONLY THOSE to output the letters.  (Hint: one of the variables would store “*********”)
+
+An outdoor storage shed, which has the form of a rectangular prism, was recently built in a rectangular backyard.  In variables, store the width and length of the base of the shed.  Then, create two more variables to store the width and length of the yard (make sure that these numbers are >= their shed counterparts).  Write a program that calculates and prints the backyard area outside of the shed.
+
+
+
