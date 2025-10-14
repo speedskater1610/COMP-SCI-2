@@ -1,4 +1,5 @@
 // Write a program that asks the user for two values, a dividend and divisor (not = 0).  Create another variable called quotient that stores the value of dividend/divisor.  Finally, create a fourth variable called remainder that stores the value of dividend%divisor.  Output the quotient and remainder.
+
 import java.util.Scanner;
 
 public class L02P03 {
