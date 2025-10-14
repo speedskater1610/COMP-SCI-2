@@ -1,0 +1,73 @@
+Java Input - Practice Problems
+
+All problems in this set should be completed in a project called Java03_Input.  
+Each problem should get its own class and must be named starting with a letter.  
+For example, we could name the second problem in level 1: Java03_L1P2.  
+It is important that the class name is exactly the same as the file name.
+
+------------------------------------------------------------
+
+Level 1 (Basic)
+
+1. Take a user’s course name and grade and display the information on the screen.
+
+2. Ask a user if they are a student at this school. Print the result.
+
+3. Ask a user if they are a freshman, sophomore, junior or senior.  Print the result.
+
+4. Ask the user for their hometown and display it.
+
+5. Ask the user for their batting average (decimal value) and display it.
+
+6. Create a decimal value in a double variable.  Cast it as an int and output it.
+
+7. Create a char variable.  Cast it as an int,  and output it.
+
+8. Create a String variable that stores an integer value.  Parse the string into an int and increment it by one.
+
+9. Create an integer value in an int variable.  Convert the int to a String and store it.
+
+------------------------------------------------------------
+
+Level 2 (Intermediate)
+
+1. Write a program that asks a user for  three double variables and stores their average in a variable called avg.  Output the average.
+
+2. Ask a user for their age and their name (in that order).  Output both values in a full sentence.
+
+3. Write a program that asks the user for two values, a dividend and divisor (not = 0).  Create another variable called quotient that stores the value of dividend/divisor.  Finally, create a fourth variable called remainder that stores the value of dividend%divisor.  Output the quotient and remainder.
+
+4. Ask the user for the month, day and year of their birthday.  Format the output as a date.
+
+5. Ask the user if they enjoy Computer Programming.  Display the result in a sentence.  This should be a true or false question.
+
+6. Ask a user for three values.  The first is the cost of an item, the second is a discount percentage and the third is a tax percentage.  The program should calculate the final cost of the item after the discount is taken and the tax is applied to the discounted cost.  All input should be taken as integers.
+
+------------------------------------------------------------
+
+Level 3 (Advanced)
+
+1. 
+Interact with the user and ask for the necessary information to create the following mad lib:
+
+Dear (Relative),
+I am having a(n) (Adjective) time at camp. 
+The counselor is (Adjective) and the food is (Adjective). 
+I met (Name Of Person In Room) and we became (Adjective) friends. 
+Unfortunately, (Name Of Person In Room) is (Adjective) and I (Verb Ending In Ed)my (Body Part) so we couldn't go (Verb Ending In Ing) like everybody else. 
+I need more (Plural Noun) and a (Noun) sharpener, so please (Adverb) (Verb) more when you(Verb) back.
+Your (Relative),
+(Person In Room)
+
+
+2. 
+INPUT: A floating point number representing hours
+OUTPUT: Two integers, separated by a space.  First integer represents the whole number of 
+		     hours and the second integer represents the whole number of minutes rounded 
+		     down.
+	EXAMPES:
+		Input: 2.44			Output: 2 26
+		Input: 2.68			Output: 2 40
+		Input: 0.5			Output: 0 30
+
+
