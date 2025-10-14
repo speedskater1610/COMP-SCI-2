@@ -28,7 +28,8 @@ public class MATH_oct7 {
                 - only 2 numbers at a time
         -    Math.random() returns a random double from 0 to 1 : [0, 1)
         */
-        String s = "13"; double v = Integer.parseInt(s)*1.0; 
+        String s = "13"; 
+        double v = Integer.parseInt(s)*1.0; 
         System.out.print(v);
     }
 }
