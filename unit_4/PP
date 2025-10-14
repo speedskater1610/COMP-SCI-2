@@ -2,40 +2,40 @@ Java Math and String - Practice Problems
 All problems in this set should be completed in a project/folder called Java04_MathAndString.  Each problem should get its own class and must be named starting with a capital letter.  For example, we could name the second problem in level 1: Java04_L1P2.  It is important that the class name is exactly the same as the file name.
 
 Level 1
-MATH: Take a number from a user and display the absolute value of that number.
+1. MATH: Take a number from a user and display the absolute value of that number.
 
-MATH: Have the user enter a number.  Show the result of that number raised to the 4th power.
+2. MATH: Have the user enter a number.  Show the result of that number raised to the 4th power.
 
-MATH: Have the user enter two numbers.  Display the smallest of the two and the largest of the two.
+3. MATH: Have the user enter two numbers.  Display the smallest of the two and the largest of the two.
 
-STRING: Take a name as input from a user and output a message with the word hello concatenated in front of the name.  (e.g. Input (“Mickey”) – Output (“Hello, Mickey”).
+4. STRING: Take a name as input from a user and output a message with the word hello concatenated in front of the name.  (e.g. Input (“Mickey”) – Output (“Hello, Mickey”).
 
-STRING: Take a string from a user of minimum length two, return the string made of its first two chars, so the String "Hello" yields "He".
+5. STRING: Take a string from a user of minimum length two, return the string made of its first two chars, so the String "Hello" yields "He".
 
-STRING: Take a string from a user and output the first character in lower case.
+6. STRING: Take a string from a user and output the first character in lower case.
 
-STRING: Take a string from a user and output the index in which the string “at” appears in the string.
+7. STRING: Take a string from a user and output the index in which the string “at” appears in the string.
 
 
 Level 2
-MATH: Ask the user for a double.  Use one of the Math methods to round the number up.
+1. MATH: Ask the user for a double.  Use one of the Math methods to round the number up.
 
-MATH: Have the user enter three numbers.  Display the largest of the numbers.
+2. MATH: Have the user enter three numbers.  Display the largest of the numbers.
 
-MATH: Take four numbers from a user, representing two points (x1,y1) and (x2,y2).  Display the slope and distance between the two points.
+3. MATH: Take four numbers from a user, representing two points (x1,y1) and (x2,y2).  Display the slope and distance between the two points.
 
-MATH: Take two side lengths from a user. Use the Pythagorean Theorem to find and display the length of the hypotenuse.
+4. MATH: Take two side lengths from a user. Use the Pythagorean Theorem to find and display the length of the hypotenuse.
 
-STRING: Take a string from a user and output a "rotated left 2" version where the first 2 chars are moved to the end. The string length will be at least 2. For example, the String “Hello” yields “lloHe”.	
+5. STRING: Take a string from a user and output a "rotated left 2" version where the first 2 chars are moved to the end. The string length will be at least 2. For example, the String “Hello” yields “lloHe”.	
 
-STRING: Take a string from a user and output the last character in uppercase (hint: use the length property).
+6. STRING: Take a string from a user and output the last character in uppercase (hint: use the length property).
 
-STRING: Take a 5 letter word as input from the user.  Then, cast and output the ASCII value of each letter in the word.
+7. STRING: Take a 5 letter word as input from the user.  Then, cast and output the ASCII value of each letter in the word.
 
 Level 3
-Take input from the user in the following form (b^e).  For example, 3^4.  Use String and Math methods to output b raised to the e power.
+1. Take input from the user in the following form (b^e).  For example, 3^4.  Use String and Math methods to output b raised to the e power.
 
-Take a string from a user and output a string of length 3 from its middle, so "Candy" yields "and" and “Friends” yields “ien”. The string length will be at least 3.
+2. Take a string from a user and output a string of length 3 from its middle, so "Candy" yields "and" and “Friends” yields “ien”. The string length will be at least 3.
 
-Store the following in a string. “JavaScript is a powerful programming language.  There are many built in functions and classes in JavaScript that allow programmers to perform tasks easily.” Then, output the string with JavaScript being replaced by Java.  
+3. Store the following in a string. “JavaScript is a powerful programming language.  There are many built in functions and classes in JavaScript that allow programmers to perform tasks easily.” Then, output the string with JavaScript being replaced by Java.  
 
