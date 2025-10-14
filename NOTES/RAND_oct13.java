@@ -54,6 +54,9 @@ public class RAND_oct13 {
 //  {                       }   (-2,3)
 
 
+        // Mr I stooped here
+            // the rest of this is my notes
+        
         // That is the way Mr.I teaches them
         // this is the way that I prefer and I think this is a lot easier to memorize this formula
         int max = 6;
@@ -92,5 +95,133 @@ public class RAND_oct13 {
 
         // (,)        excllusive of both of the max and min
         int ExEx = (int)(Math.random() * (max - min - 1)) + (min + 1);
+
+        // NOTE 
+        /*
+            if you only want to memorize 1 of the formulas
+            for INTs [x,y)
+            is the same as
+            [x,y-1]
+                - this is because it will never reach the high one on y so it will get dropped to the number lower inclusive
+            
+            meaning if you have problem
+            [x,y)
+            you can make this inclusive inclusive 
+            [x,y-1]
+                (int) (Math.random() * ((y-1) - x + 1) + x);
+            which when simplified becomes 
+                (int) (Math.random() * (x - y) + x);
+                
+            which is the same as the inclusive exclusive formula
+        */
+
+        /*
+            for ints of (x,y]
+            this is the same thing as
+            [x+1,y]
+            meaning once again you can use the [,] formula 
+        */
+
+
+        // TEST
+        /*
+        Try out these then scroll down to see the answers
+        
+            [3,6]
+            [-4,14]
+            [5,6]
+            [0,64]
+            [4,14]
+            [-1,1]
+            [0,1]
+
+            [4,7)
+            [-3,5)
+            [-8,-4)
+            [4,7)
+            [3,6)
+            [-1,8)
+            [12,76)
+
+            (4,6]
+            (2,8]
+            (1,9]
+            (-65,3]
+            (-12,4]
+            (3,16]
+            (-2,5]
+            (1,4]
+            (-3,3]
+
+            (2,5)
+            (-4,5)
+            (1,2)
+            (0,7)
+            (3,8)
+            (3,9)
+            (-2,9)
+            (-5,-3)
+        */
+
+
+
+
+
+
+        // ANSWERS
+        //-------------------------------------------
+            // INCLUSIVE INCLUSIVE PROBLEMS
+        // [3,6]
+            (int) (Math.random() * 4 + 3);
+        // [-4,14]
+            (int) (Math.random() * 19 - 4);
+        // [5,6]
+            (int) (Math.random() * 2 + 5);
+        // [0,64]
+            (int) (Math.random() * 65);
+        // [4,14]
+            (int) (Math.random() * 11 + 4);
+        // [-1,1]
+            (int) (Math.random() * (3) -1);
+        // [0,1]
+            (int) (Math.random() * 2)
+
+            // INCLUSIVE EXCLUSIVE PROBLEMS
+        // [4,7)        can be written as [4,6]
+            (int) (Math.random() * 3 + 4)
+        // [-3,5)       can be written as [-3,4]
+            (int) (Math.random() * 9 - 3)
+        // [-8,-4)      can be written as [-8,-5]
+            (int) (Math.random() * 4 - 8)
+        // [4,7)        can be written as [4,6]
+            (int) (Math.random() * 3 + 4)
+        // [3,6)        can be written as [3,5]
+            (int) (Math.random() * 3 + 3)
+        // [-1,8)       can be written as [-1,7]
+            (int) (Math.random() * 9 - 1)
+        // [12,76)      can be written as [12,75]
+            (int) (Math.random() * 64 + 12)
+
+
+            // EXCLUSIVE INCLUSIVE PROBLEMS
+            // int ExInc = (int) (Math.random() * (max - min)) + min + 1;
+        // (4,6]      can be written as [5,6]
+            
+        // (2,8]      can be written as [3,8]
+            
+        // (1,9]      can be written as [2,9]
+            
+        // (-65,3]     can be written as [-64,3]
+            
+        // (-12,4]    can be written as [-11,4]
+            
+        // (3,16]     can be written as [4,16]
+            
+        // (-2,5]     can be written as [-1,5]
+            
+        // (1,4]      can be written as [2,4]
+            
+        // (-3,3]     can be written as [-2,3]
+            
     }
 }
