@@ -122,11 +122,24 @@ public class RAND_oct13 {
             meaning once again you can use the [,] formula 
         */
 
+        /*
+            to get (,) in [,] form we can combine the 2 previous concepts 
+
+            (x,y) is equal to [x+1,y-1]
+
+            for example
+            (2,7) => {3,4,5,6}
+            (3,6) => {3,4,5,6}
+            or 
+            (-2, 4) => {-1,0,1,2,3}
+            (-1, 3) => {-1,0,1,2,3}
+        */
+
 
         // TEST
         /*
         Try out these then scroll down to see the answers
-        
+                // these are the base use the formula (int) (Math.random() * (max-min+1) + min)
             [3,6]
             [-4,14]
             [5,6]
@@ -135,6 +148,7 @@ public class RAND_oct13 {
             [-1,1]
             [0,1]
 
+                // to get these from [x,y) to the base [,] do [x,y-1]
             [4,7)
             [-3,5)
             [-8,-4)
@@ -143,6 +157,7 @@ public class RAND_oct13 {
             [-1,8)
             [12,76)
 
+                // to get these from (x,y] to the base [,] do [x+1,y]
             (4,6]
             (2,8]
             (1,9]
@@ -184,44 +199,62 @@ public class RAND_oct13 {
         // [-1,1]
             (int) (Math.random() * (3) -1);
         // [0,1]
-            (int) (Math.random() * 2)
+            (int) (Math.random() * 2);
 
             // INCLUSIVE EXCLUSIVE PROBLEMS
         // [4,7)        can be written as [4,6]
-            (int) (Math.random() * 3 + 4)
+            (int) (Math.random() * 3 + 4);
         // [-3,5)       can be written as [-3,4]
-            (int) (Math.random() * 9 - 3)
+            (int) (Math.random() * 9 - 3);
         // [-8,-4)      can be written as [-8,-5]
-            (int) (Math.random() * 4 - 8)
+            (int) (Math.random() * 4 - 8);
         // [4,7)        can be written as [4,6]
-            (int) (Math.random() * 3 + 4)
+            (int) (Math.random() * 3 + 4);
         // [3,6)        can be written as [3,5]
-            (int) (Math.random() * 3 + 3)
+            (int) (Math.random() * 3 + 3);
         // [-1,8)       can be written as [-1,7]
-            (int) (Math.random() * 9 - 1)
+            (int) (Math.random() * 9 - 1);
         // [12,76)      can be written as [12,75]
-            (int) (Math.random() * 64 + 12)
+            (int) (Math.random() * 64 + 12);
 
 
             // EXCLUSIVE INCLUSIVE PROBLEMS
             // int ExInc = (int) (Math.random() * (max - min)) + min + 1;
         // (4,6]      can be written as [5,6]
-            
+            (int) (Math.random() * 2 + 5);
         // (2,8]      can be written as [3,8]
-            
+            (int) (Math.random() * 6 + 3);
         // (1,9]      can be written as [2,9]
-            
+            (int) (Math.random() * 8 + 2);
         // (-65,3]     can be written as [-64,3]
-            
+            (int) (Math.random() * 68 - 64);
         // (-12,4]    can be written as [-11,4]
-            
+            (int) (Math.random() * 16 - 11);
         // (3,16]     can be written as [4,16]
-            
+            (int) (Math.random() * 13 + 4);
         // (-2,5]     can be written as [-1,5]
-            
+            (int) (Math.random() * 7 - 1);
         // (1,4]      can be written as [2,4]
-            
+            (int) (Math.random() * 3 + 2);
         // (-3,3]     can be written as [-2,3]
-            
+            (int) (Math.random() * 6 -2);
+
+            // EXCLUSIVE EXCLUSIVE  PROBLEMS
+        // (2,5)     can be written as [3,4]
+            (int) (Math.random() * 2 + 3);
+        // (-4,5)    can be written as [-3,4]
+            (int) (Math.random() * 8 - 3);
+        // (1,2)     can be written as [2,1]
+            (int) (Math.random() * 0 + 2);    // this is a weird one because there arent any ints from (1,2) but we will aways generate 2
+        // (0,7)     can be written as [1,6]
+            (int) (Math.random() * 6 + 1);
+        // (3,8)     can be written as [4,7]
+            (int) (Math.random() * 4 + 4);
+        // (3,9)     can be written as [4,8]
+            (int) (Math.random() * 5 + 4);
+        // (-2,9)    can be written as [-1,8]
+            (int) (Math.random() * 10 - 1);
+        // (-5,-3)   can be written as [-4,-4]
+            (int) (Math.random() * 1 - 4)    // this is another wierd one generating {-4,-3}
     }
 }
