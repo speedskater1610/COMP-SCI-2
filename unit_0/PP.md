@@ -1,8 +1,8 @@
-Java 01 -  Drawing - Practice Problems
-Each problem should get its own class and must be named starting with a capital letter.  For example, we could name the second problem in level 1: L1P2.  It is important that the class name is exactly the same as the file name.
-Turtle Graphics Info Page: https://cs.mickeyengel.com/lessons/java_01_drawing.php 
+# Java 01 -  Drawing - Practice Problems
+### Each problem should get its own class and must be named starting with a capital letter.  For example, we could name the second problem in level 1: L1P2.  It is important that the class name is exactly the same as the file name.
+### [Turtle Graphics Info](Page: https://cs.mickeyengel.com/lessons/java_01_drawing.php)
 
-Level 1
+# Level 1
 Problem 1 - Draw a square with side length 20.
   
 Problem 2 - Draw a triangle with vertices (0,0), (30, 0) and (0, 40).
@@ -13,7 +13,7 @@ Problem 4 - Draw a T.  The lines of the T should be 20px wide and should be purp
   
 Problem 5 - Draw three vertical lines, each 50 pixels apart, and 100 pixels long.  You can pick the color of the lines.
 
-Level 2
+# Level 2
 Problem 1 - Draw a stick figure on the screen.  Make sure it has a head, arms (with elbows), and legs with knees and feet.  The head can be a square or a triangle.
   
 Problem 2 - Draw a house with a roof, chimney, two second floor windows and a window and door on the first floor.
@@ -23,5 +23,5 @@ Problem 3 - Draw a dashed line from (-200, 200) to (100, -200).  Each dash (and 
 Problem 4 - Draw your three initials (first, middle, last) and make each a different color.
 
 
-Level 3
+# Level 3
 Problem 1 - Draw a stop sign.  The sign should be filled in completely with red and the letters, in white, should appear on top of the octagon.
