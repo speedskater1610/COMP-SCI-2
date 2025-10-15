@@ -254,7 +254,14 @@ public class RAND_oct13 {
             (int) (Math.random() * 5 + 4);
         // (-2,9)    can be written as [-1,8]
             (int) (Math.random() * 10 - 1);
+        
         // (-5,-3)   can be written as [-4,-4]
-            (int) (Math.random() * 1 - 4)    // this is another wierd one generating {-4,-3}
+            (int) (Math.random() * 1 - 4);       // WRONG
+                // these are some to lookout for becasuase it should only ever generate -4 you have to 
+                    (int) (Math.random() * 0) - 4
+    //                    {            }            [0.00,1.00)
+    //                    {                 }       [0.00]
+    //              {                       }       [0]
+    //              {                           }   [-4]
     }
 }
