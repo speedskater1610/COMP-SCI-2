@@ -33,6 +33,7 @@ public class STRING_oct15 {
                 thing.charAt(1);            => 'l'
             thing.indexOf(str);         returns => the index of the first occourence str
                                                 returns => -1 if str isnt found;
+                thing.indexOf(str, int);        starts looking at index int and after for the str    
             thing.substring();
         */
     }
