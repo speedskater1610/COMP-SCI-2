@@ -36,5 +36,9 @@ public class STRING_oct15 {
                 thing.indexOf(str, int);        starts looking at index int and after for the str    
             thing.substring();
         */
+
+        // Examples
+        String word = "Hello, world";
+        
     }
 }
