@@ -5,6 +5,7 @@
 - [unit 1](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_1)
 - [unit 2](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_2)
 - [unit 4](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_4)
+- [unit 5](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_5)
   
 ## notes
 - [Math Class](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/MATH_oct7.java) (Methods and Member variable) 
