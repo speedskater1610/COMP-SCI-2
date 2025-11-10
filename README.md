@@ -10,4 +10,5 @@
 ## notes
 - [Math Class](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/MATH_oct7.java) (Methods and Member variable) 
 - [Random](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/RAND_oct13.java) (Math.random() and how to make ranges of numbers) 
-- [String Class](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/STRING_oct15.java) (String class methods and Indexing/length of Strings) 
+- [String Class](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/STRING_oct15.java) (String class methods and Indexing/length of Strings)
+- [Methods](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/METHOD_nov10.md) (Overloaded methods)
