@@ -1,6 +1,6 @@
 # Java 01 -  Drawing - Practice Problems
 ### Each problem should get its own class and must be named starting with a capital letter.  For example, we could name the second problem in level 1: L1P2.  It is important that the class name is exactly the same as the file name.
-### [Turtle Graphics Info](Page: https://cs.mickeyengel.com/lessons/java_01_drawing.php)
+### [Turtle Graphics Info](https://cs.mickeyengel.com/lessons/java_01_drawing.php)
 
 # Level 1
 Problem 1 - Draw a square with side length 20.
