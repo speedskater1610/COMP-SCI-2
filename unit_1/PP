@@ -1,7 +1,7 @@
-Java 02 -  Variables and Output - Practice Problems
+# Java 02 -  Variables and Output - Practice Problems
 All problems in this set should be completed in your Lesson02 workspace..  Each problem should get its own class and must be named starting with a capital letter.  For example, we could name the second problem in level 1: L1P2.java.  It is important that the class name is exactly the same as the file name.
 
-Level 1
+## Level 1
 1. Write a program that outputs your name. No variables needed.
 
 2. Write a program that displays your name, address and phone number on the monitor.  Each should be on its own line.  No variables needed.
@@ -22,7 +22,7 @@ Level 1
 
 7. Write a program that creates two values, a dividend and divisor (not = 0).  Create another variable called quotient that stores the value of dividend/divisor.  Finally, create a fourth variable called remainder that stores the value of dividend%divisor.  Output the quotient and remainder.
 
-Level 2
+## Level 2
 1. Write a fortune teller program that gives you your ideal fortune.  Declare and initialize four variables: num=your desired number of children, job is your ideal career, spouse is your dream significant other and loc is where you would like to live.  Then, output a sentence that states “You will be a job in loc and married to spouse with num kids.”  Each variable name in the sentence should be replaced with the variable value on output.
 
 2. Write a program that displays the members of your family that live in your house.  Be sure to include any pets that you may have.  All output should be written in one output statement, but each family member should appear on their own line.
@@ -36,7 +36,7 @@ Level 2
 6. Write a program that creates two values, a dividend and divisor (not = 0).  Create another variable called quotient that stores the value of dividend/divisor.  Finally, create a fourth variable called remainder that stores the value of dividend%divisor.  Output the quotient and remainder.
 
 
-Level 3
+## Level 3
 1. Write a program that displays the difference of two numbers.  Write a sentence that says “the difference of num1 and num2 is difference.”  Except the values of num1, num2 and difference in the output should be replaced by variables that store values.
 
 2. Write a program to output the letters H, T and L as created by * characters.  Create four variables that store * patterns and use ONLY THOSE to output the letters.  (Hint: one of the variables would store “*********”)
