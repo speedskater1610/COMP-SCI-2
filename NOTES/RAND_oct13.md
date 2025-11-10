@@ -1,32 +1,27 @@
-// MATH RANDOM NOTES
+# MATH RANDOM NOTES
+## generating random numbers
+We can generate random numbers using the 
+`Math.random();`
 
-public class RAND_oct13 {
-    public static void main(String[] args) {
-        // generating random numbers
-        /*We can generate random numbers using the 
-        Math.random();
-        method
-        */
-        
-        // the following procidure applies
+the following procedure applies
+``` java
         int numOfPossibleValues = 6;
         int minValuePossible = 2;
         int random = (int)(Math.random()*numOfPossibleValues) + minValuePossible;   // [2, 8)
-        //                {                                 }
-        //                     is what is getting casted
-        
-        // why not cast after the addition of min value
-        /*
-            - math.random() retrurns a double from [0,1)
-                -> [0,1) is more like (0,1) because 
-        */
+```
+                          {                                 }
+                              is what is getting casted
+                     why not cast after the addition of min value
+
+                    - math.random() retrurns a double from [0,1)
+                            -> [0,1) is more like (0,1) because 
+```java
         int num0 = 
         (int)(Math.random()*6)+1;
         //   {             }         (0,1]
         //  {                 }      (0,6]
     //  {                     }      (0,5]
     //  {                       }    (1, 6]
-    
     
         int num1 =
         (int)(Math.random()*6+1);
@@ -52,19 +47,18 @@ public class RAND_oct13 {
 //       {               }      (0,7)
 //       {                  }   (-3,4)
 //  {                       }   (-2,3)
+```
 
-
-        // Mr I stooped here
-            // the rest of this is my notes
-        
-        // That is the way Mr.I teaches them
-        // this is the way that I prefer and I think this is a lot easier to memorize this formula
+*Mr I stooped here*
+the rest of this is my notes*
+### formula
+``` java
         int max = 6;
         int min = 13;
         int randomNumber = (int) (Math.random() * (max - min + 1)) + min;
-        
-        // examples 
-        
+```
+##  examples 
+```java
         // [1,8]
         int num4 = (int) (Math.random() * 8)  + 1;
         
@@ -82,63 +76,48 @@ public class RAND_oct13 {
         
         // [67]
         int num9 = (int) (Math.random() * 1) + 67;
+```
+## for diffrent range types here are the formulas
+### [,]         inclusive of both min and max
+`int IncInc = (int) (Math.random() * (max - min + 1) + min);`
 
-        // for diffrent range types here are the formulas
-        // [,]         inclusive of both min and max
-        int IncInc = (int) (Math.random() * (max - min + 1) + min);
+### [,)         inclusive of min, exclusive of max
+`int IncEx  = (int) (Math.random() * (max - min) + min);`
 
-        // [,)         inclusive of min, exclusive of max
-        int IncEx  = (int) (Math.random() * (max - min) + min);
+### (,]        exclusive of min and inclusive of max
+`int ExInc = (int) (Math.random() * (max - min)) + min + 1;`
 
-        // (,]        exclusive of min and inclusive of max
-        int ExInc = (int) (Math.random() * (max - min)) + min + 1;
+### (,)        excllusive of both of the max and min
+`int ExEx = (int)(Math.random() * (max - min - 1)) + (min + 1);`
 
-        // (,)        excllusive of both of the max and min
-        int ExEx = (int)(Math.random() * (max - min - 1)) + (min + 1);
-
-        // NOTE 
-        /*
-            if you only want to memorize 1 of the formulas
-            for INTs [x,y)
-            is the same as
-            [x,y-1]
-                - this is because it will never reach the high one on y so it will get dropped to the number lower inclusive
+## Note
+### for integers `[x,y)`
+if you only want to memorize 1 of the formulas
+for integers `[x,y)` is the same as `[x,y-1]`
+- this is because it will never reach the high one on y so it will get dropped to the number lower inclusive
             
-            meaning if you have problem
-            [x,y)
-            you can make this inclusive inclusive 
-            [x,y-1]
-                (int) (Math.random() * ((y-1) - x + 1) + x);
-            which when simplified becomes 
-                (int) (Math.random() * (x - y) + x);
-                
-            which is the same as the inclusive exclusive formula
-        */
-
-        /*
-            for ints of (x,y]
-            this is the same thing as
-            [x+1,y]
-            meaning once again you can use the [,] formula 
-        */
-
-        /*
-            to get (,) in [,] form we can combine the 2 previous concepts 
-
-            (x,y) is equal to [x+1,y-1]
-
-            for example
+ so `[x,y)` you can make this inclusive inclusive `[x,y-1]`
+```java
+(int) (Math.random() * ((y-1) - x + 1) + x);
+// which when simplified becomes 
+(int) (Math.random() * (x - y) + x);
+```
+### for integers of `(x,y]`
+this is the same thing as `[x+1,y]` meaning once again you can use the `[,]` formula 
+to get (,) in [,] form we can combine the 2 previous concepts 
+`(x,y)` is equal to `[x+1,y-1]`
+for example...
+```js
             (2,7) => {3,4,5,6}
             (3,6) => {3,4,5,6}
             or 
             (-2, 4) => {-1,0,1,2,3}
             (-1, 3) => {-1,0,1,2,3}
-        */
+```
 
-
-        // TEST
-        /*
-        Try out these then scroll down to see the answers
+## TEST
+Try out these then scroll down to see the answers
+```java
                 // these are the base use the formula (int) (Math.random() * (max-min+1) + min)
             [3,6]
             [-4,14]
@@ -176,15 +155,11 @@ public class RAND_oct13 {
             (3,9)
             (-2,9)
             (-5,-3)
-        */
+```
 
 
-
-
-
-
-        // ANSWERS
-        //-------------------------------------------
+## ANSWERS
+```java
             // INCLUSIVE INCLUSIVE PROBLEMS
         // [3,6]
             (int) (Math.random() * 4 + 3);
@@ -264,4 +239,4 @@ public class RAND_oct13 {
     //              {                       }       [0]
     //              {                           }   [-4]
     }
-}
+```
