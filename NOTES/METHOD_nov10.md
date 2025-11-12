@@ -20,7 +20,3 @@ public static double avg(int num1, double num2) { ... }
 public static double avg(double num1, int num2) { ... }
 ```
 
-## Writing them
-```java
-// todo : next class
-```
