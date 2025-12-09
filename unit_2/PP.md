@@ -1,13 +1,13 @@
-Java Input - Practice Problems
+# Java Input - Practice Problems
 
 All problems in this set should be completed in a project called Java03_Input.  
 Each problem should get its own class and must be named starting with a letter.  
 For example, we could name the second problem in level 1: Java03_L1P2.  
 It is important that the class name is exactly the same as the file name.
 
-------------------------------------------------------------
+---
 
-Level 1 (Basic)
+## Level 1 (Basic)
 
 1. Take a user’s course name and grade and display the information on the screen.
 
@@ -27,9 +27,9 @@ Level 1 (Basic)
 
 9. Create an integer value in an int variable.  Convert the int to a String and store it.
 
-------------------------------------------------------------
+---
 
-Level 2 (Intermediate)
+## Level 2 (Intermediate)
 
 1. Write a program that asks a user for  three double variables and stores their average in a variable called avg.  Output the average.
 
@@ -43,9 +43,9 @@ Level 2 (Intermediate)
 
 6. Ask a user for three values.  The first is the cost of an item, the second is a discount percentage and the third is a tax percentage.  The program should calculate the final cost of the item after the discount is taken and the tax is applied to the discounted cost.  All input should be taken as integers.
 
-------------------------------------------------------------
+---
 
-Level 3 (Advanced)
+## Level 3 (Advanced)
 
 1. 
 Interact with the user and ask for the necessary information to create the following mad lib:
