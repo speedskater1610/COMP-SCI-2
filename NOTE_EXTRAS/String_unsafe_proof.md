@@ -1,4 +1,4 @@
-You are probably coming from here [Condition notes](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/JavaControls_Dec_9.md)
+You are probably coming from [Condition notes](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/JavaControls_Dec_9.md)
 ## We will use unsafe java `sun.misc.Unsafe` to prove that 2 `String` objects declared in the same scope with the same value both refernce the same part of memory
 First we will make a file `UnsafeStringAddress.java` which we will make the method `getUnsafe()` 
 This method provides a way to acquire the `Unsafe` singleton instance, 
