@@ -12,3 +12,5 @@
 - [Random](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/RAND_oct13.java) (Math.random() and how to make ranges of numbers) 
 - [String Class](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/STRING_oct15.java) (String class methods and Indexing/length of Strings)
 - [Methods](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/METHOD_nov10.md) (Overloaded methods)
+- [Methods (continued)](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/Methods_Nov14.md) (This includes the concepts of helper methods and class file seperation to help organize code)
+- [Controls](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/JavaControls_Dec_9.md) (This includes the controls and comparison of primitive and String data types.)
