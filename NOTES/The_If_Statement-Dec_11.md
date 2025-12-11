@@ -47,8 +47,14 @@ else{
 <ins>Nesting</ins> : 
 ```java
 if (con1) {
-    if (con2) {} // con1 and con2 are both true
-    else {} // con1 if true and con2 is false
+    if (con2) {
+        // con1 and con2 are both true
+    } 
+    else {
+         // con1 if true and con2 is false
+    }
 }
-else {}  // runs when con1 is false
+else {
+    // runs when con1 is false
+}
 ```
