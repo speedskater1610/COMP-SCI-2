@@ -1,10 +1,8 @@
 # Problem 1
 ## APCS AMUSEMENT PARK
 
-Most hourly jobs require someone to enter information on a timesheet. The APCS Amusement Park is open from 9:00 a.m. to 5:00 p.m. The Business Office enters a code representing the location where an employee works and the starting time and ending time for each day. The codes entered are as follows:
-9:00 = 1    	9:30 = 2    	10:00 = 3   	10:30 = 4   	11:00 = 5   	11:30 = 6   	12:00 = 7
-12:30 = 8   	1:00 = 9    	1:30 = A   	2:00 = B    	2:30 = C    	3:00 = D   	3:30 = E
-4:00 = F    	4:30 = G   	5:00 = H
+Most hourly jobs require someone to enter information on a timesheet. The APCS Amusement Park is open from 9:00 a.m. to 5:00 p.m. The Business Office enters a code representing the location where an employee works and the starting time and ending time for each day. The codes entered are as follows:  
+`9:00 = 1`    	`9:30 = 2`    	`10:00 = 3`   	`10:30 = 4`   	`11:00 = 5`   	`11:30 = 6`   	`12:00 = 7`    	`12:30 = 8`   	`1:00 = 9`    	`1:30 = A`   	`2:00 = B`    	`2:30 = C`    	`3:00 = D`   	`3:30 = E`    	`4:00 = F`    	`4:30 = G`   	 `5:00 = H`
  
 Locations 100-199 get paid $10.00 per hour with time and a half for any hours over 5 per day.
 Locations 200-299 get paid $7.50 per hour with double time for hours worked over 6 per day.
@@ -18,11 +16,11 @@ OUTPUT: The total amount of money that the employee gets paid for the two days p
 
 | SAMPLE INPUT			| 		SAMPLE OUTPUT | 
 |---|---|
-| 1. 125, 2, 1, 7, 125, 3, 5, H      	  |  			1.  $95.00 |
-| 2. 214, 4, 1, H, 314, 5, 5, H      	  |  			2. $133.00 |
-| 3. 318, 1, 1, H, 319, 3, 3, D      	  |  			3. $126.50 |
-| 4. 423, 1, 1, 7, 500, 2, 5, H      	  |  			4.  $88.50 |
-| 5. 529, 6, 1, G, 100, 4, 2, G      	  |  			5. $146.00 |
+| 125, 2, 1, 7, 125, 3, 5, H      	  |  			$95.00     |
+| 214, 4, 1, H, 314, 5, 5, H      	  |  			$133.00    |
+| 318, 1, 1, H, 319, 3, 3, D      	  |  			$126.50    |
+| 423, 1, 1, 7, 500, 2, 5, H      	  |  			$88.50     |
+| 529, 6, 1, G, 100, 4, 2, G      	  |  			$146.00    |
 
 
 
