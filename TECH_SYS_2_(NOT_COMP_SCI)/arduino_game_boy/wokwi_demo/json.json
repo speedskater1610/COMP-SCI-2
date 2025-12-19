@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "author": "russel einsla",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 255.8,
+      "left": 182.4,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    {
+      "type": "wokwi-lcd2004",
+      "id": "lcd1",
+      "top": -185.6,
+      "left": -23.2,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-analog-joystick",
+      "id": "joystick1",
+      "top": 210.6,
+      "left": 24.6,
+      "attrs": {}
+    } 
+  ],
+  "connections": [
+    [ "uno:3.3V", "joystick1:VCC", "red", [ "v163.7", "h-92.4" ] ],
+    [ "uno:2", "btn1:2.r", "green", [ "v106.2", "h41.9", "v172.8" ] ],
+    [ "joystick1:GND", "uno:GND.2", "black", [ "v-9.6", "h67.2", "v-115.2", "h9.6" ] ],
+    [ "lcd1:GND", "uno:GND.1", "black", [ "h-48", "v153.6", "h182.4" ] ],
+    [ "lcd1:VCC", "uno:5V", "red", [ "h-38.4", "v345.7", "h220.8" ] ],
+    [ "lcd1:SDA", "uno:A4.2", "green", [ "h-28.8", "v144.2", "h115.2", "v-9.6", "h28.8" ] ],
+    [ "lcd1:SCL", "uno:A5.2", "yellow", [ "h-19.2", "v144.3", "h124.8" ] ],
+    [ "joystick1:VERT", "uno:A0", "green", [ "v9.6", "h182.4", "v-124.8", "h-48" ] ],
+    [ "joystick1:HORZ", "uno:A1", "green", [ "v19.2", "h182.4", "v-124.8", "h-38.4" ] ],
+    [ "uno:GND.3", "btn1:1.l", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
