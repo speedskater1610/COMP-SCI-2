@@ -1,1 +1,17 @@
-
+# Building out "set" with the custon brick that we 3D modeled. 
+## steps to get started
+- print out custom part (base) [.3mf file found here](https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/CustomPart.3mf)
+- find the follow peices (or close peices since we don't have a ton of peices to choose from)
+  - ### Base
+  - *Note: some of the peices when first but on the 3D printed base might be wiggly this shouldnt be alarming too you*
+    - 5 2x2x3 bricks
+      - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251219_120839.jpg" height=200></img>
+    - 3 2x4x3 bricks
+      - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251219_121008.jpg" height=200></img>
+    - 3 2x4x5 bricks
+      - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251219_121820.jpg" height=200></img>
+    - 1 2x6x3 brick, 1 2x3x3 brick, 1 2x2x3 brick, 1 1x2x3 brick
+      - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251219_122307.jpg" height=200></img>
+    - 1 2x3x3 rounded slope brick (red), 1 2x3x3 slanted brick (grey), 1 2x2x3 brick, 4 1x4x3 bricks, 2 2x4x3 bricks
+      - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251219_123022.jpg" height=200></img>
+    - ### this finished base
