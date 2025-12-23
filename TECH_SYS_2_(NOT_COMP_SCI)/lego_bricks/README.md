@@ -1,4 +1,5 @@
 # Building out "set" with the custon brick that we 3D modeled. 
+- <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_121358.jpg" height=700></img>
 ## steps to get started
 - print out custom part (base) [.3mf file found here](https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/CustomPart.3mf)
 - find the follow peices (or close peices since we don't have a ton of peices to choose from)
@@ -14,8 +15,25 @@
       - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251219_122307.jpg" height=200></img>
     - 1 2x3x3 rounded slope brick (red), 1 2x3x3 slanted brick (grey), 1 2x2x3 brick, 4 1x4x3 bricks, 2 2x4x3 bricks
       - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251219_123022.jpg" height=200></img>
-    - ### this finished base
-    - ### Now the top part
+  - ### this finished base
+  - ### Now the top part
       - Find these peices
         - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_115216.jpg" height=200></img>
-      - Now allign the base like this 
+      - Now allign the base like this
+        - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_115637.jpg" height=200></img>
+      - Now attach thyem together like this
+        -  <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_115710.jpg" height=200></img>
+      - Next attach these peices and build this off to the side
+        - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_115739.jpg" height=200></img>
+      - Now attach these peices to fill out the connector area
+        - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_115811.jpg" height=200></img>
+      - Attach the 2 peices together like so
+        - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_115821.jpg" height=200></img>
+      - Add the rest of the peices
+        - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_115858.jpg" height=200></img>
+  - ### Now attach The 2 peices together
+      - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_120811.jpg" height=200></img>
+      - ### Then take the pre-built shark
+        - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_121348.jpg" height=200></img>
+      - ### And attach it to the Main part to complete the set
+        - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_121358.jpg" height=200></img>
