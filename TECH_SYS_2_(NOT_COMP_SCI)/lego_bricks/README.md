@@ -15,3 +15,7 @@
     - 1 2x3x3 rounded slope brick (red), 1 2x3x3 slanted brick (grey), 1 2x2x3 brick, 4 1x4x3 bricks, 2 2x4x3 bricks
       - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251219_123022.jpg" height=200></img>
     - ### this finished base
+    - ### Now the top part
+      - Find these peices
+        - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_115216.jpg" height=200></img>
+      - Now allign the base like this 
