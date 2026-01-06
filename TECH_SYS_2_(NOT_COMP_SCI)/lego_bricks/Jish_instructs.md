@@ -1,4 +1,5 @@
 # Building out "set" with the custon brick that we 3D modeled. 
+# *With Jishnus custom brick*
 - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_121358.jpg" height=700></img>
 ## steps to get started
 - print out custom part (base) [.3mf file found here](https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/CustomPart.3mf)
