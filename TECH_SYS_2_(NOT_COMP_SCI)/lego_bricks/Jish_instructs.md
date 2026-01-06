@@ -3,7 +3,7 @@
 - <img src="https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/IMG_20251223_121358.jpg" height=700></img>
 ## steps to get started
 - print out custom part (base) [.3mf file found here](https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/CustomPart.3mf)
-- And then print out this also #[.3mf again]()
+- And then print out this also #[Jish.stl](https://github.com/speedskater1610/COMP-SCI-2/blob/main/TECH_SYS_2_(NOT_COMP_SCI)/lego_bricks/Jish.stl)
 - find the follow peices (or close peices since we don't have a ton of peices to choose from)
   - ### Base
   - *Note: some of the peices when first but on the 3D printed base might be wiggly this shouldnt be alarming too you*
