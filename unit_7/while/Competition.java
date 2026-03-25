@@ -10,23 +10,19 @@ public class Competition {
         
         IntStream.rangeClosed(1, n)
             .filter(i -> i % 2 != 0)
-            .filter(i -> new AbundantNumberSolver(i).get())
+            .filter(i -> new AbundantNumberSolver(i).isAbundantNumber)
             .forEach(System.out::println);
     }
 
     public static class AbundantNumberSolver {
         private int num;
-        private boolean isAbundantNumber;
+        public boolean isAbundantNumber;
         
         AbundantNumberSolver(int num) {
             this.num = num;
             this.isAbundantNumber = false; // base case
             
             this.solve();
-        }
-        
-        public boolean get() {
-            return this.isAbundantNumber;
         }
         
         private void solve() {
