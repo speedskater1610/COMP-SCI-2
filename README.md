@@ -4,7 +4,7 @@
 - [unit 0](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_0) - Turtle java
 - [unit 1](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_1) - Printing and java Syntax
 - [unit 2](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_2) - User Console Input (`Scanner`)
-- [unit 4](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_4) - Math and String class 
+- [unit 4](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_4) - `Math` and `String` class 
 - [unit 5](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_5) - Methods
 - [unit 6](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_6) - `if` and `switch` statements
 - [unit 7](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_7) - `for` and `while` loops
