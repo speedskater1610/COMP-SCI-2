@@ -21,4 +21,12 @@ jobs:
         distribution: 'temurin'
         
     - name: Build
-      run: javac */*.java
+      run: 
+        javac unit_0/*.java
+        javac unit_1/*.java
+        javac unit_2/*.java
+        javac unit_3/*.java
+        javac unit_4/*.java
+        javac unit_5/*.java
+        javac unit_6/*.java
+        javac unit_7/*.java
