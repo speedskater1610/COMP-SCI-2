@@ -35,3 +35,11 @@ for (int i = 0; i < names.length; ++i) {
     namesCopy[i] = names[i]; 
 } 
 ```
+
+---
+
+#### Alias vs copies
+```Java
+int nums[] = {1, 2, 3};
+int numsCopy = nums;
+```
