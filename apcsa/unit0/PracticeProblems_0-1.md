@@ -31,7 +31,7 @@ Example
 
 Complete the practice problems below in your coding workspace. You should be able to talk through and explain each problem. Comment your code, practice good indentation, name your variables appropriately, etc. Keep it clean!
 
-1. Create a new file called Problem1.java and create a main method in that file. Then, create variables for a person’s name, age, GPA, and if they are taking a computer science class (a boolean). Assign literal values to these variables. Then, print out the following statement to the console using a single print statement:
+1. Create a new file called Problem1.java and create a main method in that file. Then, create variables for a person´s name, age, GPA, and if they are taking a computer science class (a boolean). Assign literal values to these variables. Then, print out the following statement to the console using a single print statement:
 
 ```
 Name : <name>
