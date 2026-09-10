@@ -1,23 +1,20 @@
-# Comp Sci 2 
+# In this Repo I have my last 3 years of CS and tech classes notes and work / projects in it.
+
+---
+
+# Comp Sci 2 (cs2)
 
 ## practice problems
-- [unit 0](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_0) - Turtle java
-- [unit 1](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_1) - Printing and java Syntax
-- [unit 2](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_2) - User Console Input (`Scanner`)
-- [unit 4](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_4) - `Math` and `String` class 
-- [unit 5](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_5) - Methods
-- [unit 6](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_6) - `if` and `switch` statements
-- [unit 7](https://github.com/speedskater1610/COMP-SCI-2/tree/main/unit_7) - `for` and `while` loops
+- [unit 0](https://github.com/speedskater1610/COMP-SCI-2/tree/main/cs2/unit_0) - Turtle java
+- [unit 1](https://github.com/speedskater1610/COMP-SCI-2/tree/main/cs2/unit_1) - Printing and java Syntax
+- [unit 2](https://github.com/speedskater1610/COMP-SCI-2/tree/main/cs2/unit_2) - User Console Input (`Scanner`)
+- [unit 4](https://github.com/speedskater1610/COMP-SCI-2/tree/main/cs2/unit_4) - `Math` and `String` class 
+- [unit 5](https://github.com/speedskater1610/COMP-SCI-2/tree/main/cs2/unit_5) - Methods
+- [unit 6](https://github.com/speedskater1610/COMP-SCI-2/tree/main/cs2/unit_6) - `if` and `switch` statements
+- [unit 7](https://github.com/speedskater1610/COMP-SCI-2/tree/main/cs2/unit_7) - `for` and `while` loops
 
-### APCSA Practice problems
+# AP Computer Science A (apcsa)
+
+## Practice problems
 *Chapters that where assigned for reading along with the practice problems will be linked from the book [Think Java](https://greenteapress.com/thinkjava7/thinkjava2.pdf)*
 - [unit 0.1](https://github.com/speedskater1610/COMP-SCI-2/blob/main/APCSA_unit_0/PracticeProblems_0-1.md) - Variables, IO, Conversions (*Chapters 1-3*)
-
-
-## notes
-- [Math Class](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/MATH_oct7.java) (Methods and Member variable) 
-- [Random](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/RAND_oct13.java) (Math.random() and how to make ranges of numbers) 
-- [String Class](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/STRING_oct15.java) (String class methods and Indexing/length of Strings)
-- [Methods](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/METHOD_nov10.md) (Overloaded methods)
-- [Methods (continued)](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/Methods_Nov14.md) (This includes the concepts of helper methods and class file separation to help organize code)
-- [Controls](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/JavaControls_Dec_9.md) (This includes the controls and comparison of primitive and String data types.)

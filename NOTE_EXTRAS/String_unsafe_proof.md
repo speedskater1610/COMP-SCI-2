@@ -38,7 +38,7 @@ public class StringMemoryAddress {
         valueField.setAccessible(true); 
 
         
-        long arrayBaseAddress = unsafe.objectFieldOffset(valueField
+        long arrayBaseAddress = unsafe.objectFieldOffset(valueField);
         
         // str1
         Object charArrayObject_str1 = valueField.get(str1);
