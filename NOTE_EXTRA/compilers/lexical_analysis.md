@@ -1,8 +1,28 @@
 # Lexical analysis
 
-### Definition
+## Definition
 he first phase of a compiler that reads the source code character by character and groups them into meaningful sequences called tokens
 
-<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFkAbAMBIgACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAAAwQFAgEHBv/EADAQAAICAgEDAgQEBgMAAAAAAAECAAMEERIFITETYSJBUZEycYGSM1JTYrHBFBUk/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAMCAf/EAB0RAQABBAMBAAAAAAAAAAAAAAABERITYQNSYgL/2gAMAwEAAhEDEQA/APuMREBERARMJqutcUSl2rCCwHfBuZ2eJJPgfp+Y1CVdbXkzvycq38MoAX4KB5B+HYbXz8bmbtK4/UN2Jhph9Ts6dkU3W6vyLFDWB+JCaUN+HwSAR28E7nLVdf8ARci8eo1YUBeGkYCv4l2O+z6h0T41F2jHHaG9E/P+l1usPVVZx2GtBUKfjNhPHbdtFT+Y1+kvdPr6hXlWDJINBDFRsaUlyRr5n4SPOta+e+yJc+uOkVrDSiImkyIiAiIgIiICIiAiIgIiICIiAiIgV8vMx8NVbJs4KxIB0fpuc0dQxMi1aqbgzspYAA9wNbI+4+89yca22wPVl20kLx0oBH56I8+JHjYuYjVtf1B7OI+NBUoDHv7b+Y+0C7KnUsh8fGDUsgsa2tF5jY+J1UnWxvsZMcbHJJNFRJ8ngJS6pgUvRW9WHW9tV9Vi8UXkNOpJHvoGBFk5l+LaK7s6gOfAGG7fLfybt4nuLmZGVaaqc2kuF5EHDca76+b/AF39pxY2ebbGSzMVHOwhoQ8R9AeX0/3+keHl5j5dge3LsFLBbKv+Kq9yoPZie49x9SN7EC/g5j20E3IzWLZYhNdZAPFyu/n9JDY/UvUY1XIEO+IfGYkd/Yj8pXxMPqClijGuu222xhc5JTk7EBQp14IPf6y2uNnm48rqxTy7cWflx2PfW9bECxZmCtOTU5DdwDwqJPc68SnhtZZ0/EyMnqdtbX1oe4qALMN6G1nqYvUhYOV9Br7b72b9/nIUZcXouOnUen2suNQof8DaIXR0A2yfI7d+8C4E5HS9VtJJ129Lz+2eY9j1dQvx7slrEWqt19TiCCS4PgD+UTiqiiq5bqukOtijSuBXsD90kx63s6jkX247Vo1NaL6hUkkFyfBP8wgW/Wq/qJ+4RVbXcnOmxbF2RyU7Gx5j0q/6a/aKqq6U4U1pWuyeKLobPcwO4iICIiAkV1RYh6yFtXwfkfY+0liBHTaLVPYq69mU+QZJKWRVbbn1tTf6JqUM2lB9UHkOLew89tHY862DU/7PK7f+XIJ7BtY34T2/u94GuzKilmICgbJJ7ASCtWvcXWAqo/hoR3H9x9/8SmWyMmnHyHZ6kW4bpeniW+Lj8QJP12PcCakBERAREQEREBERAREQIHW5bzZUqMGQKQzldaJ9j9ZRu6fk23eotllXxcuFeTpSf2TViBSSnJ9CmhwrBCm7GtLM3Eg7PwjZOpdiICIiAiIgIiICIiAiIgIiICIiAiIgIiIH/9k="/>
+### What is a token?
+
+A token is a sequence of characters that represents a basic unit of meaning in a programming language. They are generated from the source code by the lexer, and then are used by the parser to understand the program's structure. One way that you might represent a token is using a [enum](https://en.wikipedia.org/wiki/Enumerated_type) <!-- NOTE: when I write my own enum notes use those --> and then representing the entire program as an [array](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/cs2/Arrays_May6.md) [(another array notes)](https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/cs2/Arrays_apr30.md) of these tokens.
 
 
+For example take the following `C` program
+
+```C
+int main() {
+    return 0 + 1;
+}
+```
+
+We can assume that this program would generate tokens or something like the follow:
+
+```
+int -> main -> ( -> ) -> { -> return -> 0 -> + -> 1 -> ; -> }
+```
+
+Obviously we can assume a lot more information based off of the syntax and these tokens. with the token string above `1` and `main` are considered the same to the compiler since they hold no other meta-data with them. Instead the compiler can also assume all of the following data based on `C`'s syntax rules
+
+-  `int main()` function names "`main`" returning `int` must be passed 0 args
+    -    
