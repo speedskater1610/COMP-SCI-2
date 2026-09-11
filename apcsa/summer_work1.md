@@ -367,13 +367,9 @@ public class Problem1 {
                 String checkOutStringIndex = readLine("What is your index - ");
                 int checkOutIndex = Integer.parseInt(checkOutStringIndex);
                 
-                
                 // get their pin
                 String CheckOutPin = readLine("Enter your Pin: ");
                 
-                
-                
-                // "R*ST"
                 workers
                     .elementAt(checkOutIndex)
                     .checkOut (
@@ -415,21 +411,27 @@ public class Problem1 {
                 case Week.SATURDAY:
                     this.day = Week.SUNDAY;
                     break;
+                
                 case Week.SUNDAY:
                     this.day = Week.MONDAY;
                     break;
+                
                 case Week.MONDAY:
                     this.day = Week.TUESDAY;
                     break;
+                
                 case Week.TUESDAY:
                     this.day = Week.WEDNESDAY;
                     break;
+                
                 case Week.WEDNESDAY:
                     this.day = Week.THURSDAY; 
                     break;
+                
                 case Week.THURSDAY:
                     this.day = Week.FRIDAY;
                     break;
+                
                 case Week.FRIDAY:
                     this.day = Week.SATURDAY;
                     break;
@@ -528,6 +530,7 @@ public class Problem1 {
             else if (isBetween(this.location, 200, 299)) {
                 // $7.50 per hour with double time for hours worked over 6 per day
                 double amountPerHour = 7.50;
+
                 if (timeWorked > 6) {
                     // Pay for the firts 5 hours
                     amountPaying += 5*amountPerHour;
@@ -563,7 +566,6 @@ public class Problem1 {
                 // Saturdays (day 7) and $6.75 per hour otherwise.
                 double amountPerHour1 = 13.50;
                 double amountPerHour2 = 6.75;
-                
                 
                 // I dont know if this should have this.day.getValue();
                 if (this.day == Week.SUNDAY || this.day == Week.SATURDAY) {
