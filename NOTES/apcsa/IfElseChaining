@@ -1,0 +1,21 @@
+# Chaining
+
+```java
+if (A) {
+  ...
+}
+else if (B) {
+  ...
+}
+else if (C) {
+  ...
+}
+else {
+  ...
+}
+```
+
+* There is no limit to how long you can chain the else/ifs
+* Always try to think about how to condense long chains
+* optionally ends in a `else`. if it ends in an `else` you are saying that there is a case that something will happen or you will lose points.
+* Runs checking `A->B->C1...` So ORDER MATTERS.
