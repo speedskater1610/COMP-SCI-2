@@ -10,6 +10,8 @@ for (int i = 0; i < str.length(); ++i) {
 ```
 Prints every even (including 0) index of str. `bnns`
 
+![https://github.com/speedskater1610/COMP-SCI-2/blob/main/NOTES/apcsa/forLoopWarmUpPhoto.png]()
+
 To rewrite this without if statements in the body:
 ```java
 for (int i = 0; i < str.length(); i += 2)
