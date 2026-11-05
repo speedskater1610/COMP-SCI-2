@@ -230,3 +230,75 @@ Any other value should print the message: Invalid Selection. Additionally, the u
 ---
 
 
+## 6.
+
+Write a method called magic8ball that simulates a Magic 8 Ball. The method has no parameters. The function should generate and print a random answer using the following table:
+
+- 1 = It is certain
+- 2 = It seems likely
+- 3 = It is possible 
+- 4 = Maybe
+- 5 = Probably Not
+- 6 = Don’t count on it
+- 7 = Absolutely not
+- 8 = It is impossible to tell
+- 9 = Results hazy - try again
+
+After writing the method, ask the user to enter a question 3 times. The user’s question must end with a question mark (?) character. Use the magic8ball method to generate an answer for each question before asking the next question. 
+
+**Hint**: *Use a while loop to complete this problem successfully.*
+
+
+#### Solution:
+
+<details>
+<summary>Click to view Solution</summary>
+
+```java
+    /* Problem 6 */
+    public static void magic8ball() {
+        int randNum = (int)(Math.random() * 9) + 1;
+        
+        switch (randNum) {
+            case 1:
+                System.out.println("It is certain");
+                break;
+            case 2:
+                System.out.println("It seems likely");
+                break;
+            case 3:
+                System.out.println("It is possible");
+                break
+                
+            case 4:
+                System.out.println("Maybe");
+                break;
+                
+            case 5:
+                System.out.println("Probably Not");
+                break;
+                
+            case 6:
+                System.out.println("Don't count on it");
+                break;
+                
+            case 7:
+                System.out.println("Absolutely not");
+                break;
+                
+            case 8:
+                System.out.println("It is impossible to tell");
+                break;
+                
+            case 9:
+                System.out.println("Results hazy - try again");
+                break;
+        }
+
+    }
+```
+
+</details>
+
+---
+
