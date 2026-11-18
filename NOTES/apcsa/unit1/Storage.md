@@ -25,3 +25,13 @@ public class Example {
     }
 }
 ```
+
+
+## Considerations for File Reading:
+- How many Lines of data? *In about 2 weeks when we learn `ArrayLists` this will become obsolete*
+    - Size an array (or equivalent data structure) for the data
+- Format of data stored in the file
+    - For using `.split()` after lines are read.
+- Type of data being stored / read.
+    - Data conversion
+
